@@ -1,0 +1,4 @@
+        # 6.3.3 - Next bad guy
+        index+=1
+    for badguy in badguys:
+        screen.blit(badguyimg, badguy)
