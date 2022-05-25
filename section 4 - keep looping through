@@ -1,0 +1,5 @@
+# 4 - keep looping through
+running = 1
+exitcode = 0
+while running:
+    badtimer-=1
