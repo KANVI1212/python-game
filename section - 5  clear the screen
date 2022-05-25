@@ -1,0 +1,2 @@
+# 5 - clear the screen before drawing it again
+    screen.fill(0)
