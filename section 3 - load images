@@ -1,0 +1,11 @@
+# 3 - Load images
+player = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\dude.png")
+grass = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\grass.png")
+castle = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\castle.png")
+arrow = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\bullet.png")
+badguyimg1 = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\badguy.png")
+badguyimg=badguyimg1
+healthbar = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\healthbar.png")
+health = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\health.png")
+gameover = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\gameover.png")
+youwin = pygame.image.load(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\images\youwin.png")
