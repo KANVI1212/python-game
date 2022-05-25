@@ -1,0 +1,4 @@
+    # 6.5 - Draw health bar
+    screen.blit(healthbar, (5,5))
+    for health1 in range(healthvalue):
+        screen.blit(health, (health1+8,8))
