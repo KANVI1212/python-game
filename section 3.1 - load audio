@@ -1,0 +1,10 @@
+# 3.1 - Load audio
+hit = pygame.mixer.Sound(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\audio\explode.wav")
+enemy = pygame.mixer.Sound(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\audio\enemy.wav")
+shoot = pygame.mixer.Sound(r"C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\audio\shoot.wav")
+hit.set_volume(0.05)
+enemy.set_volume(0.05)
+shoot.set_volume(0.05)
+pygame.mixer.music.load(r'C:\Users\hp\Downloads\BB_Materials\BB_Resources\resources\audio\moonlight.wav')
+pygame.mixer.music.play(-1, 0.0)
+pygame.mixer.music.set_volume(0.25)
