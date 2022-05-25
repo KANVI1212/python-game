@@ -1,0 +1,5 @@
+# 1 - Import library
+import pygame
+import math
+import random
+from pygame.locals import *
