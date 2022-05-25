@@ -1,0 +1,13 @@
+    # 6.2 - Draw arrows
+    for bullet in arrows:
+        index=0
+        velx=math.cos(bullet[0])*10
+        vely=math.sin(bullet[0])*10
+        bullet[1]+=velx
+        bullet[2]+=vely
+        if bullet[1]<-64 or bullet[1]>640 or bullet[2]<-64 or bullet[2]>480:
+            arrows.pop(index)
+        index+=1
+        for projectile in arrows:
+            arrow1 = pygame.transform.rotate(arrow, 360-projectile[0]*57.29)
+            screen.blit(arrow1, (projectile[1], projectile[2]))
