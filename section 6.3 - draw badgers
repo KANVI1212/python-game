@@ -1,0 +1,13 @@
+    # 6.3 - Draw badgers
+    if badtimer==0:
+        badguys.append([640, random.randint(50,430)])
+        badtimer=100-(badtimer1*2)
+        if badtimer1>=35:
+            badtimer1=35
+        else:
+            badtimer1+=5
+    index=0
+    for badguy in badguys:
+        if badguy[0]<-64:
+            badguys.pop(index)
+        badguy[0]-=7
